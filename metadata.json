@@ -1,0 +1,6 @@
+{
+  "name": "BrewNest Café",
+  "description": "Good Food · Great Coffee · Better Mood — Cozy artisanal café in Sector 12, Noida offering specialty coffee, delicious snacks, hearty meals, and desserts.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

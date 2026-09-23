@@ -15,7 +15,7 @@ export const INITIAL_DAILY_SPECIALS: DailySpecialItem[] = [
     claimedQuantity: 13,
     badge: '⚡ FLASH ROAST',
     badgeType: 'flash',
-    image: 'image: `${IMAGE_BASE}Smoked Cardamom Spanish Cortado.jpg`,',
+    image: `${IMAGE_BASE}Smoked Cardamom Spanish Cortado.jpg`,
     dietary: 'beverage',
     preparationTime: '3 mins',
     calories: '85 kcal',

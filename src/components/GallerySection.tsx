@@ -26,7 +26,7 @@ export const GallerySection: React.FC<GallerySectionProps> = ({ showHeaderBanner
       {showHeaderBanner && (
         <div className="relative h-64 sm:h-72 lg:h-80 flex items-center justify-center bg-[#1A0E08] overflow-hidden">
           <img
-            src="/Images/visual.jpg"
+            src={`${import.meta.env.BASE_URL}Images/visual.jpg`}
             alt="Dark roasted coffee beans"
             className="w-full h-full object-cover opacity-60"
           />

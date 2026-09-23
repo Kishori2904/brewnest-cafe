@@ -43,7 +43,7 @@ export const Footer: React.FC<FooterProps> = ({
             aria-label="BrewNest Café"
           >
             <img
-              src="/Images/logo.png"
+              src={`${import.meta.env.BASE_URL}Images/logo.png`}
               alt="BrewNest Café"
               className="h-16 w-auto object-contain group-hover:scale-105 transition-transform duration-200"
             />

@@ -43,7 +43,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({
       {showHeaderBanner && (
         <div className="relative h-64 sm:h-72 lg:h-80 flex items-center justify-center bg-[#1A0E08] overflow-hidden">
           <img
-            src="/Images/contact.jpg"
+            src={`${import.meta.env.BASE_URL}Images/contact.jpg`}
             alt="BrewNest Café ambient coffee cup and greenery"
             className="w-full h-full object-cover opacity-60"
           />

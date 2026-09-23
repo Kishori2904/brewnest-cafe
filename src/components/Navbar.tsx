@@ -82,7 +82,7 @@ export const Navbar: React.FC<NavbarProps> = ({
           {/* BrewNest Logo */}
           <div className="flex items-center">
             <img
-              src="/Images/logo.png"
+              src={`${import.meta.env.BASE_URL}Images/logo.png`}
               alt="BrewNest Café"
               className="h-12 w-auto object-contain"
             />

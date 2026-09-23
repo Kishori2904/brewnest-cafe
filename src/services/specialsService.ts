@@ -1,5 +1,5 @@
 import { DailySpecialItem } from '../types';
-
+const IMAGE_BASE = `${import.meta.env.BASE_URL}Images/`;
 export const INITIAL_DAILY_SPECIALS: DailySpecialItem[] = [
   {
     id: 'special-cortado-cardamom',
@@ -15,7 +15,7 @@ export const INITIAL_DAILY_SPECIALS: DailySpecialItem[] = [
     claimedQuantity: 13,
     badge: '⚡ FLASH ROAST',
     badgeType: 'flash',
-    image: '/Images/Smoked Cardamom Spanish Cortado.jpg',
+    image: 'image: `${IMAGE_BASE}Smoked Cardamom Spanish Cortado.jpg`,',
     dietary: 'beverage',
     preparationTime: '3 mins',
     calories: '85 kcal',
@@ -38,7 +38,7 @@ export const INITIAL_DAILY_SPECIALS: DailySpecialItem[] = [
     claimedQuantity: 12,
     badge: '🥐 BAKER\'S CUT',
     badgeType: 'baker',
-    image: '/Images/Pecan & Orange Blossom Brioche Toast.jpg',
+    image: `${IMAGE_BASE}Pecan & Orange Blossom Brioche Toast.jpg`,
     dietary: 'veg',
     preparationTime: '8 mins',
     calories: '380 kcal',
@@ -61,7 +61,7 @@ export const INITIAL_DAILY_SPECIALS: DailySpecialItem[] = [
     claimedQuantity: 15,
     badge: '❄️ COLD VAULT',
     badgeType: 'roaster',
-    image: '/Images/Nitro Cold Brew & Madagascar Gelato Float.jpg',
+    image: `${IMAGE_BASE}Nitro Cold Brew & Madagascar Gelato Float.jpg`,
     dietary: 'beverage',
     preparationTime: '2 mins',
     calories: '160 kcal',
@@ -84,7 +84,7 @@ export const INITIAL_DAILY_SPECIALS: DailySpecialItem[] = [
     claimedQuantity: 12,
     badge: '⭐ CHEF\'S SPECIAL',
     badgeType: 'chef',
-    image: '/Images/Truffle Wild Mushroom & Scamorza Sourdough.jpg',
+    image: `${IMAGE_BASE}Truffle Wild Mushroom & Scamorza Sourdough.jpg`,
     dietary: 'veg',
     preparationTime: '10 mins',
     calories: '420 kcal',
@@ -107,7 +107,7 @@ export const INITIAL_DAILY_SPECIALS: DailySpecialItem[] = [
     claimedQuantity: 11,
     badge: '🥐 BAKER\'S CUT',
     badgeType: 'baker',
-    image: '/Images/Rosewater Pistachio Croissant Cube.jpg',
+    image: `${IMAGE_BASE}Rosewater Pistachio Croissant Cube.jpg`,
     dietary: 'veg',
     preparationTime: 'Ready to Serve',
     calories: '310 kcal',
@@ -130,7 +130,7 @@ export const INITIAL_DAILY_SPECIALS: DailySpecialItem[] = [
     claimedQuantity: 11,
     badge: '✨ ROASTER\'S VAULT',
     badgeType: 'roaster',
-    image: '/Images/Kashmiri Kahwa & Saffron Blonde Fusion.jpg',
+    image: `${IMAGE_BASE}Kashmiri Kahwa & Saffron Blonde Fusion.jpg`,
     dietary: 'beverage',
     preparationTime: '4 mins',
     calories: '110 kcal',

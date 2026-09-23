@@ -13,7 +13,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ showHeaderBanner = t
       {showHeaderBanner && (
         <div className="relative h-64 sm:h-72 lg:h-80 flex items-center justify-center bg-[#1A0E08] overflow-hidden">
           <img
-            src="/Images/cafe.jpg"
+            src={`${import.meta.env.BASE_URL}Images/cafe.jpg`}
             alt="BrewNest Café ambient coffee shop with neon sign"
             className="w-full h-full object-cover opacity-60"
           />
@@ -37,7 +37,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ showHeaderBanner = t
             {/* Left Image: Latte Art on Dark Table matching screenshot */}
             <div className="rounded-2xl overflow-hidden shadow-lg border border-stone-200 dark:border-amber-900/40 aspect-[4/3] bg-stone-900">
               <img
-                src="/Images/Cappuccino.jpg"
+                src={`${import.meta.env.BASE_URL}Images/Cappuccino.jpg`}
                 alt="Cappuccino with latte art"
                 className="w-full h-full object-cover hover:scale-102 transition-transform duration-500"
                 loading="lazy"
